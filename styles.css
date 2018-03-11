@@ -1,0 +1,22 @@
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0;
+	background-color: #5E4485;
+	color: #FFF; 
+	padding: 1% 0;
+	font-size: 0.7cm;
+	border: 0;
+}
+.navbar-brand {
+	float: left;
+	min-height: 55px;
+	padding: 0 9px 3px;
+}
+.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, 
+.navbar-inverse .navbar-nav .active a:hover {
+	color: #FFF
+	background-color: #5E4485;
+} 
+.navbar-inverse .navber-nav li a {
+	color: #D5D5D5
+}
