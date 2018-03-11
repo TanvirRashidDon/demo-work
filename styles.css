@@ -33,8 +33,24 @@
 	border: 2px solid;
 }
 
+#icon {
+	max-width: 200px;
+	margin: 1% auto;
+}
+.container {
+	margin: 4% auto;
+}
+
 @media (max-width: 600px) {
 	.carousel-caption{
 		display: none;
 	}
+	#icon {
+		max-width: 100px;
+		h2 {
+			font-size: 1.7%;
+		}
+	}
 }
+
+
